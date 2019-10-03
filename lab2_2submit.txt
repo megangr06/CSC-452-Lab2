@@ -1,0 +1,17 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=20
+#PBS -l walltime=01:00:00
+#PBS -N myjob0
+#PBS -o myjob.out
+#PBS -e myJobError.out
+#PBS -q workq
+#PBS -A loni_cyen405
+#PBS -m e
+#PBS -M mcg033@latech.edu
+work="/home/mcg033/lab_2"
+CFILE="lab2_2"
+cd $work
+echo "MPI run with 4 processes."
+mpirun -np 4 -machinefile $PBS_NODEFILE ./$CFILE
+echo "MPI run with 8 processes."
+mpirun -np 8 -machinefile $PBS_NODEFILE ./$CFILE
