@@ -1,0 +1,63 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    704563.qb3
+Username:  mcg033
+Group:     latechusers
+Date:      09-Oct-2019 00:42
+Node:      qb050 (64567)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb050
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb050 00:42:32 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 09-Oct-2019 00:42:32
+------------------------------------------------------
+MPI run with 4 processes.
+Local Sum on proc# 1 is 126227294.000000.
+Local Sum on proc# 3 is 126206477.000000.
+Local Sum on proc# 2 is 126200903.000000.
+Local Sum on proc# 0 is 126260907.000000.
+Time elapsed 0.004817 secs.
+Total Sum: 504895581.000000
+MPI run with 8 processes.
+Local Sum on proc# 1 is 63143640.000000.
+Local Sum on proc# 5 is 63105228.000000.
+Local Sum on proc# 7 is 63145558.000000.
+Local Sum on proc# 6 is 63103964.000000.
+Local Sum on proc# 3 is 63106611.000000.
+Local Sum on proc# 4 is 63137545.000000.
+Local Sum on proc# 0 is 63165700.000000.
+Local Sum on proc# 2 is 63113335.000000.
+Time elapsed 0.006202 secs.
+Total Sum: 505021581.000000
+------------------------------------------------------
+Running PBS epilogue script    - 09-Oct-2019 00:42:33
+------------------------------------------------------
+Checking node qb050 (MS)
+Checking node qb050 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 09-Oct-2019 00:42:35
+------------------------------------------------------
+Exit Status:     0
+Job ID:          704563.qb3
+Username:        mcg033
+Group:           latechusers
+Job Name:        myjob00
+Session Id:      64566
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=01:00:00
+Resources Used:  cput=00:00:03,mem=0kb,vmem=0kb,walltime=00:00:03
+Queue Used:      workq
+Account String:  loni_cyen405
+Node:            qb050
+Process id:      65202
+------------------------------------------------------

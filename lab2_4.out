@@ -1,0 +1,59 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    704564.qb3
+Username:  mcg033
+Group:     latechusers
+Date:      09-Oct-2019 00:46
+Node:      qb050 (65850)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb050
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb050 00:46:06 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 09-Oct-2019 00:46:06
+------------------------------------------------------
+MPI run with 4 processes.
+Message at proc# 0:Hello, mcg033 from #0
+Time elapsed is 0.000088 seconds.Message at proc# 1:Hello, mcg033 from #0
+Message at proc# 2:Hello, mcg033 from #0
+Message at proc# 3:Hello, mcg033 from #0
+MPI run with 8 processes.
+Message at proc# 0:Hello, mcg033 from #0
+Time elapsed is 0.000104 seconds.Message at proc# 1:Hello, mcg033 from #0
+Message at proc# 2:Hello, mcg033 from #0
+Message at proc# 3:Hello, mcg033 from #0
+Message at proc# 4:Hello, mcg033 from #0
+Message at proc# 5:Hello, mcg033 from #0
+Message at proc# 6:Hello, mcg033 from #0
+Message at proc# 7:Hello, mcg033 from #0
+------------------------------------------------------
+Running PBS epilogue script    - 09-Oct-2019 00:46:07
+------------------------------------------------------
+Checking node qb050 (MS)
+Checking node qb050 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 09-Oct-2019 00:46:09
+------------------------------------------------------
+Exit Status:     0
+Job ID:          704564.qb3
+Username:        mcg033
+Group:           latechusers
+Job Name:        myjob00
+Session Id:      65849
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=01:00:00
+Resources Used:  cput=00:00:03,mem=0kb,vmem=0kb,walltime=00:00:03
+Queue Used:      workq
+Account String:  loni_cyen405
+Node:            qb050
+Process id:      66486
+------------------------------------------------------

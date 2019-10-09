@@ -1,0 +1,59 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    704558.qb3
+Username:  mcg033
+Group:     latechusers
+Date:      09-Oct-2019 00:36
+Node:      qb050 (60747)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb050
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb050 00:36:31 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 09-Oct-2019 00:36:31
+------------------------------------------------------
+MPI run with 4 processes.
+Hello, mcg033 from #0 of 4!
+Hello, mcg033 from #1 of 4!
+Hello, mcg033 from #2 of 4!
+Hello, mcg033 from #3 of 4!
+MPI run with 8 processes.
+Hello, mcg033 from #0 of 8!
+Hello, mcg033 from #1 of 8!
+Hello, mcg033 from #2 of 8!
+Hello, mcg033 from #3 of 8!
+Hello, mcg033 from #4 of 8!
+Hello, mcg033 from #5 of 8!
+Hello, mcg033 from #6 of 8!
+Hello, mcg033 from #7 of 8!
+------------------------------------------------------
+Running PBS epilogue script    - 09-Oct-2019 00:36:33
+------------------------------------------------------
+Checking node qb050 (MS)
+Checking node qb050 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 09-Oct-2019 00:36:35
+------------------------------------------------------
+Exit Status:     0
+Job ID:          704558.qb3
+Username:        mcg033
+Group:           latechusers
+Job Name:        myjob00
+Session Id:      60746
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=01:00:00
+Resources Used:  cput=00:00:03,mem=0kb,vmem=0kb,walltime=00:00:03
+Queue Used:      workq
+Account String:  loni_cyen405
+Node:            qb050
+Process id:      61382
+------------------------------------------------------
