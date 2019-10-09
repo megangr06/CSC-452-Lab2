@@ -1,0 +1,73 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    704805.qb3
+Username:  mcg033
+Group:     latechusers
+Date:      09-Oct-2019 14:03
+Node:      qb121 (84535)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb121
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb121 14:03:10 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 09-Oct-2019 14:03:10
+------------------------------------------------------
+MPI run with 4 processes
+The message at process # 1: Hello, mcg033, from  0!
+
+The message at process # 2: Hello, mcg033, from  1!
+
+The message at process # 3: Hello, mcg033, from  2!
+
+The message at process # 0: Hello, mcg033, from  3!
+
+Time elapsed is 0.000140 seconds.
+MPI run with 8 processes
+The message at process # 1: Hello, mcg033, from  0!
+
+The message at process # 2: Hello, mcg033, from  1!
+
+The message at process # 3: Hello, mcg033, from  2!
+
+The message at process # 4: Hello, mcg033, from  3!
+
+The message at process # 5: Hello, mcg033, from  4!
+
+The message at process # 6: Hello, mcg033, from  5!
+
+The message at process # 7: Hello, mcg033, from  6!
+
+The message at process # 0: Hello, mcg033, from  7!
+
+Time elapsed is 0.000222 seconds.
+------------------------------------------------------
+Running PBS epilogue script    - 09-Oct-2019 14:03:11
+------------------------------------------------------
+Checking node qb121 (MS)
+Checking node qb121 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 09-Oct-2019 14:03:13
+------------------------------------------------------
+Exit Status:     0
+Job ID:          704805.qb3
+Username:        mcg033
+Group:           latechusers
+Job Name:        lab2_5
+Session Id:      84534
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=01:00:00
+Resources Used:  cput=00:00:03,mem=0kb,vmem=0kb,walltime=00:00:03
+Queue Used:      workq
+Account String:  loni_cyen405
+Node:            qb121
+Process id:      85169
+------------------------------------------------------
