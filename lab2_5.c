@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
   MPI_Comm_size(MPI_COMM_WORLD,&size);
   
   double start = MPI_Wtime();
-  sprintf(m2, "Hello, Brady from #%2d!\n",rank);
+  sprintf(m2, "Hello, mcg033 from #%2d!\n",rank);
   if (rank==0) {
     MPI_Send(m2,23,MPI_CHAR,1,type,MPI_COMM_WORLD);
     MPI_Recv(m1,23,MPI_CHAR,size-1,type,MPI_COMM_WORLD,&status);
