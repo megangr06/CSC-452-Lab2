@@ -1,0 +1,18 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=20
+#PBS -l walltime=01:00:00
+#PBS -N myjob00
+#PBS -o myjob.out
+#PBS -e myjob.err
+#PBS -q workq
+#PBS -A loni_cyen405
+#PBS -m e
+#PBS -M mcg033@latech.edu
+module load matlab/r2017a
+work="/home/mcg033/lab_2"
+CFILE="lab2_5"
+cd $work
+echo "MPI run with 4 processes."
+mpirun -np 4 -machinefile $PBS_NODEFILE  ./$CFILE
+echo "MPI run with 8 processes."
+mpirun -np 8 -machinefile $PBS_NODEFILE  ./$CFILE

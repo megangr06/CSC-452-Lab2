@@ -1,0 +1,51 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    703846.qb3
+Username:  mcg033
+Group:     latechusers
+Date:      07-Oct-2019 20:16
+Node:      qb103 (39255)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb103
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb103 20:16:10 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 07-Oct-2019 20:16:10
+------------------------------------------------------
+MPI run with 4 processes.
+Hello, mcg33 from #0 of 4!
+Hello, mcg33 from #1 of 4!
+Hello, mcg33 from #2 of 4!
+Hello, mcg33 from #3 of 4!
+MPI run with 8 processes.
+------------------------------------------------------
+Running PBS epilogue script    - 07-Oct-2019 20:16:10
+------------------------------------------------------
+Checking node qb103 (MS)
+Checking node qb103 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 07-Oct-2019 20:16:12
+------------------------------------------------------
+Exit Status:     0
+Job ID:          703846.qb3
+Username:        mcg033
+Group:           latechusers
+Job Name:        myjob0
+Session Id:      39254
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=01:00:00
+Resources Used:  cput=00:00:01,mem=0kb,vmem=0kb,walltime=00:00:02
+Queue Used:      workq
+Account String:  loni_cyen405
+Node:            qb103
+Process id:      39960
+------------------------------------------------------
