@@ -1,0 +1,90 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    705214.qb3
+Username:  mcg033
+Group:     latechusers
+Date:      09-Oct-2019 21:22
+Node:      qb081 (90461)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb081
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb081 21:22:10 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 09-Oct-2019 21:22:10
+------------------------------------------------------
+MPI run with 2 processes.
+Local Sum on proc# 0 is 252498173.000000.
+Time elapsed 0.005247 secs.
+Total Sum: 505075896.000000
+Local Sum on proc# 1 is 252577723.000000.
+MPI run with 4 processes.
+Local Sum on proc# 1 is 126309491.000000.
+Local Sum on proc# 3 is 126314588.000000.
+Local Sum on proc# 0 is 126222926.000000.
+Time elapsed 0.004564 secs.
+Total Sum: 505117981.000000
+Local Sum on proc# 2 is 126270976.000000.
+MPI run with 6 processes.
+Local Sum on proc# 1 is 84156465.000000.
+Local Sum on proc# 5 is 84192718.000000.
+Local Sum on proc# 4 is 84141276.000000.
+Local Sum on proc# 3 is 84174868.000000.
+Local Sum on proc# 2 is 84208418.000000.
+Local Sum on proc# 0 is 84226532.000000.
+Time elapsed 0.005663 secs.
+Total Sum: 505100277.000000
+MPI run with 8 processes.
+Local Sum on proc# 1 is 63144806.000000.
+Local Sum on proc# 3 is 63123024.000000.
+Local Sum on proc# 7 is 63115904.000000.
+Local Sum on proc# 2 is 63143963.000000.
+Local Sum on proc# 4 is 63120284.000000.
+Local Sum on proc# 5 is 63128602.000000.
+Local Sum on proc# 6 is 63121252.000000.
+Local Sum on proc# 0 is 63185877.000000.
+Time elapsed 0.007298 secs.
+Total Sum: 505083712.000000
+MPI run with 10 processes.
+Local Sum on proc# 7 is 50516349.000000.
+Local Sum on proc# 9 is 50481492.000000.
+Local Sum on proc# 8 is 50491961.000000.
+Local Sum on proc# 3 is 50510004.000000.
+Local Sum on proc# 1 is 50509973.000000.
+Local Sum on proc# 5 is 50505245.000000.
+Local Sum on proc# 6 is 50479918.000000.
+Local Sum on proc# 0 is 50516587.000000.
+Time elapsed 0.009856 secs.
+Total Sum: 505003721.000000
+Local Sum on proc# 2 is 50494557.000000.
+Local Sum on proc# 4 is 50497635.000000.
+------------------------------------------------------
+Running PBS epilogue script    - 09-Oct-2019 21:22:13
+------------------------------------------------------
+Checking node qb081 (MS)
+Checking node qb081 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 09-Oct-2019 21:22:15
+------------------------------------------------------
+Exit Status:     0
+Job ID:          705214.qb3
+Username:        mcg033
+Group:           latechusers
+Job Name:        myjob00
+Session Id:      90460
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=01:00:00
+Resources Used:  cput=00:00:09,mem=0kb,vmem=0kb,walltime=00:00:05
+Queue Used:      workq
+Account String:  loni_cyen405
+Node:            qb081
+Process id:      91138
+------------------------------------------------------
